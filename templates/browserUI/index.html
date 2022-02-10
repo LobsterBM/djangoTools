@@ -1,0 +1,27 @@
+
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}"/>
+<link rel="stylesheet" href="{% static 'css/wave.css' %}"/>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+<script src="{% static 'js/bootstrap.bundle.js' %}"></script>
+<script src="{% static 'js/bootstrap.esm.js' %}"></script>
+
+
+
+
+
+{% if module_list %}
+           <ul>
+    {% for module in module_list %}
+           <li><a href="{% url 'config' module.id %}">{{ module.title }}</a></li>
+    {% endfor %}
+       </ul>
+{% else %}
+           <p>No modules are available.</p>
+{% endif %}
+
+<div class="ocean">
+  <div class="wave"></div>
+  <div class="wave"></div>
+
+</div>
