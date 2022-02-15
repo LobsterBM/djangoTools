@@ -7,18 +7,34 @@
 <script src="{% static 'js/bootstrap.esm.js' %}"></script>
 
 
+<div>
+    {{ current_time }}
+</div>
 
-
+<div class="row">
 
 {% if module_list %}
-           <ul>
+
     {% for module in module_list %}
-           <li><a href="{% url 'config' module.id %}">{{ module.title }}</a></li>
+        <div class="col-sm-6">
+            <div class="card" >
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <p class="card-text">Sample text.</p>
+                <a href="{% url 'config' module.id %}">{{ module.title }}</a>
+              </div>
+            </div>
+        </div>
+
     {% endfor %}
-       </ul>
+
+</div>
 {% else %}
            <p>No modules are available.</p>
 {% endif %}
+
+
 
 <div class="ocean">
   <div class="wave"></div>
