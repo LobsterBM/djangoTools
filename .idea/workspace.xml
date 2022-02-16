@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a43b4f8-18cc-4315-87dc-9fc6fa676e95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/browserUI/migrations/0002_colorpicker_moduleitem_color.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browserUI/modules/cryptoModule.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browserUI/modules/timeModule.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browserUI/modules/weatherModule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/djangoProject1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browserUI/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/browserUI/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/browserUI/moduleFrame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/browserUI/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/browserUI/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browserUI/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/browserUI/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browserUI/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/browserUI/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/browserUI/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/browserUI/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,16 +35,27 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="24xPPn0WEQHAabkJKup7xto0cYN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\omark\Documents\djangoTools\templates\registration" />
+      <recent name="C:\Users\omark\Documents\djangoTools\templates\browserUI" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="djangoTools" type="Python.DjangoServer" factoryName="Django server">
@@ -84,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644569243871</updated>
-      <workItem from="1644569246430" duration="4272000" />
+      <workItem from="1644569246430" duration="10556000" />
     </task>
     <servers />
   </component>
